@@ -13,7 +13,7 @@ strategy:
     windows:
       imageName: 'windows-latest'
       cmakeTarget: 'Visual Studio 16 2019'
-      sourceFolder: 'lib/VC9/Release_DLL/x64/'
+      sourceFolder: 'Release/'
       sourceFile: 'rnnoise.dll'
       targetFile: 'rnnoise.dll'
       artifactName : 'windows_x64'
